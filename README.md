@@ -1,32 +1,50 @@
-# Student Academic Performance Analyzer
+# Python Practicals
 
-## Aim
-To develop a Python program to analyze a student's academic performance using subject-wise marks.
+This repository contains Python programs developed as part of my practical exercises.
 
-## Description
-This program accepts the student's name, subject names, and marks. It calculates the total marks, percentage, grade, and overall performance. It also identifies the highest and lowest scoring subjects and provides a suggestion for improvement.
+## Programs
 
-## Concepts Used
-- Python Dictionary
-- For Loop
-- Conditional Statements
-- User Input
-- Arithmetic Operations
+### 1. Student Academic Performance Analyzer
+A Python program that analyzes a student's academic performance using subject-wise marks.
 
-## Features
-- Stores subject-wise marks
-- Calculates total and percentage
-- Determines grade and performance
-- Finds highest scoring subject
-- Finds lowest scoring subject
+**Features:**
+- Stores subject names and marks using a dictionary
+- Calculates total marks and percentage
+- Determines grade and overall performance
+- Identifies the highest and lowest scoring subjects
 - Suggests the subject that needs more concentration
 
-## How to Run
-1. Run the Python program.
-2. Enter the student name.
-3. Enter the number of subjects.
-4. Enter each subject name and its mark.
-5. The academic performance report will be displayed.
+**Concepts Used:**
+- Dictionary
+- For loop
+- Conditional statements
+- User input
+- Arithmetic operations
 
-## Output
-The program displays the student's total marks, percentage, grade, performance, highest-scoring subject, lowest-scoring subject, and improvement suggestion.
+---
+
+### 2. Electricity Billing System
+A Python program that calculates electricity bills for multiple customers based on the number of units consumed.
+
+**Features:**
+- Accepts details of multiple customers
+- Calculates electricity charges using slab-based rates
+- Uses a function to calculate the bill
+- Displays customer name, units consumed, and bill amount
+- Gives a warning when electricity consumption exceeds 500 units
+
+**Billing Slabs:**
+- Up to 100 units — Rs. 1.50 per unit
+- 101–200 units — Rs. 2.50 per unit
+- 201–500 units — Rs. 4.00 per unit
+- Above 500 units — Rs. 6.00 per unit
+
+**Concepts Used:**
+- Functions
+- For loop
+- Conditional statements
+- User input
+- Arithmetic operations
+
+## Language Used
+Python
