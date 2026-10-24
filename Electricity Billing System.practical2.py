@@ -21,3 +21,39 @@ for i in range(1, n + 1):
     print("Bill Amount   : Rs.", round(bill, 2)) 
     if units > 500:
         print("WARNING: High electricity usage!")
+
+'''
+sample output
+
+Enter number of customers: 4
+
+Customer 1
+Enter customer name: Abhi
+Enter units consumed: 60
+Customer Name : Abhi
+Units         : 60.0
+Bill Amount   : Rs. 90.0
+
+Customer 2
+Enter customer name: Banu
+Enter units consumed: 200
+Customer Name : Banu
+Units         : 200.0
+Bill Amount   : Rs. 400.0
+
+Customer 3
+Enter customer name: Cales
+Enter units consumed: 450
+Customer Name : Cales
+Units         : 450.0
+Bill Amount   : Rs. 1400.0
+
+Customer 4
+Enter customer name: Danila
+Enter units consumed: 650
+Customer Name : Danila
+Units         : 650.0
+Bill Amount   : Rs. 2500.0
+WARNING: High electricity usage!
+
+'''
